@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id===anotherId) //false
+// console.log(id===anotherId) //false
 
 const bigNumber = 33434524443335322n
 
@@ -27,15 +27,15 @@ let myObj = {
     age:22,
 }
 
-const myFunction = function(){
-    console.log("Hello World");
-}
+// const myFunction = function(){
+//     console.log("Hello World");
+// }
 
 
-console.log(typeof bigNumber)
-console.log(typeof heros)
-console.log(typeof myFunction)
-console.log(typeof id)
+// console.log(typeof bigNumber)
+// console.log(typeof heros)
+// console.log(typeof myFunction)
+// console.log(typeof id)
 
 
 
@@ -100,3 +100,26 @@ console.log(typeof id)
 //     7.BigInt (ES11):
 //         Represents large integers that cannot be represented by the Number type.
 //         The range is practically unlimited and depends on available memory.
+
+
+// Stack (primitive), Heap(Non-primitive)
+
+let myName = "Ansh"
+
+let anotherName = myName
+anotherName = "AD"
+
+console.log(myName)
+console.log(anotherName)
+
+let user1 = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "ansh@google.com"
+
+console.log(user1.email)
+console.log(user2.email)
