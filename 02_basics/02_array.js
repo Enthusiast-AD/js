@@ -23,7 +23,7 @@ console.log(real_another_array)
 
 console.log(Array.isArray("Ansh"))
 console.log(Array.from("Ansh"))
-console.log(Array.from({name: "Ansh"})) //gives an empty array it is unable to array whose array is to make eg(keys)
+console.log(Array.from({name: "Ansh"})) //gives an empty array it is unable to array whose array is to make eg(keys,values)
 
 let score1 = 100
 let score2 = 200
